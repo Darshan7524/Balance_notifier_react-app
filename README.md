@@ -1,8 +1,31 @@
-# React + Vite
+# Linea Token Balance Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Linea Token Balance Checker is a React application that allows users to check the balance of a Linea token account, along with the percentage change in balance in the last 12 hours. If the balance reduces by 10% or more in the last 12 hours, the user will be notified with  notification.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches the Linea token balance for a specific account.
+- Calculates and displays the percentage change in balance in the last 12 hours.
+- Notifies the user if the balance reduces by 10% or more.
+
+## Technologies Used
+
+- React
+- Axios for API requests
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/linea-token-balance-checker.git
+cd linea-token-balance-checker
+
+2 Install dependencies:
+```bash
+
+npm install
+3. Start the development server:
+```bash
+Copy code
+npm start
