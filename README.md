@@ -26,5 +26,4 @@ cd linea-token-balance-checker
 npm install
 3. Start the development server:
 ```bash
-Copy code
-npm start
+npm run dev
