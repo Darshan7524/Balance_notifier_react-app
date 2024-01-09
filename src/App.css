@@ -1,0 +1,21 @@
+/* App.css */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.balance,
+.change {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #007bff;
+}
